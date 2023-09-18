@@ -18,6 +18,10 @@ public class MathUtilLive {
         long result = MathUtil.getFactorial(5);
         System.out.println("5! = 120 ; actual: "+result);
         System.out.println("0! = 1 ; actual: "+MathUtil.getFactorial(0));
+        
+        System.out.println("1! = 1 ; actual: "+MathUtil.getFactorial(1));
+        System.out.println("3! = 6 ; actual: "+MathUtil.getFactorial(3));
+        // Thêm code sau lần đầu đưa code 1h30 PM
 
        // MathUtil.getFactorial(-5); //Ném ngoại lệ thật rồi , ai biểu cà chớn làm chi
         
